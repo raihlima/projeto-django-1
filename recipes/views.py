@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse("home")
+    return render(request, 'recipes/pages/home.html')
